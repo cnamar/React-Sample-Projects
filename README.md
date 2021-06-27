@@ -1,4 +1,4 @@
-#Netflix Sample
+# Netflix Sample
 
 
 As a part of learning React.js,made a sample netflix page frontend having many features.
