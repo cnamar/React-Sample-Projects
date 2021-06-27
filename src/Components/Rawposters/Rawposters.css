@@ -13,7 +13,20 @@
   display: none;
 }
 .poster {
+  max-height: 500px;
+  max-width: 400px;
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
+.smallposter {
   max-height: 400px;
   max-width: 300px;
   margin-right: 1rem;
+  cursor: pointer;
+}
+.poster :hover {
+  transform: scale(1.4);
+}
+.smallposter:hover {
+  transform: scale(1.4);
 }

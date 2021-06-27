@@ -1,5 +1,4 @@
 .banner {
-  background-image: url("https://wallpapers.com/images/high/breaking-bad-wallpaper-1080p-sdeerwallpaper-0qia8adg0ai5730a.jpg");
   background-size: cover;
   height: 450px;
   color: white;
@@ -35,13 +34,17 @@
 }
 .description {
   font-size: 20px;
-  width: 30rem;
   line-height: 1.3;
   padding-top: 1rem;
   font-weight: 800;
   font-style: italic;
-  height: 80px;
-  max-width: 360px;
+  height: 150px;
+  max-width: 300px;
+  overflow-y: scroll;
+  overflow-x: none;
+}
+.description::-webkit-scrollbar {
+  display: none;
 }
 .shade {
   height: 100px;
